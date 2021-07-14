@@ -1,7 +1,7 @@
-# Environmental_Rain_Gauge
+# RainGauge
 BME280 outputs with Heatindex, Dewpoint; plus a rain gauge 
 
-Features of "Environmental_Rain_Gauge.ino". 
+Features of "RainGauge.ino". 
 
 1. NTP Time Server is used for 15 minute time interval, date-time stamping; Data log file gets created daily. 
 File name is in the format "LOGxxyyzzzz" xx being the DATE and yy being the MONTH and zzzz being the YEAR.
@@ -34,7 +34,7 @@ web page. Graphs are created from Iframes provided by "ThingSpeak.com"
 
 12.  OTA updates are a feature of the Sketch. 
 
-13. Two web sites, one sketch: "Environmental_Rain_Gauge.ino"
+13. Two web sites, one sketch: "RainGauge.ino"
 
 14.  Must maintain data log files by removing old log files, keep latest, four log files; easily accomplished using FTP.  
 Filezillia has been used successfully.
