@@ -21,7 +21,7 @@ const char * udpAddress2 = "time.nist.gov";
 #define publicIP  "xx.xxx.xxx.xxx"  //Part of href link for "GET" requests
 String LISTEN_PORT = "8030"; //Part of href link for "GET" requests
 
-String linkAddress = "xx.xxx.xxx.xxx";  //publicIP and PORT for URL link
+String linkAddress = "xx.xxx.xxx.xxx:yyyy";  //publicIP and PORT for URL link
 
 String ip1String = "10.0.0.146";  //Host ip address  
 
